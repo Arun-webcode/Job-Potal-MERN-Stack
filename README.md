@@ -1,11 +1,14 @@
+Sure! Here’s the updated README with installation instructions and commands included. 
+
+```markdown
 # Job Portal
 
 **Created by:** Arun.webcode
-
+```
 ## 🎉 Welcome to the Job Portal! 🎉
 
 Happy coding! This project is a comprehensive learning experience designed to emulate a real-world job portal, complete with all the functionalities you’d expect from a professional platform. Whether you’re a job seeker or a recruiter, this portal has something for everyone!
-
+```
 ## Live Demo
 
 You can access the live hosted version of the Job Portal [here](https://jobportal-live.onrender.com).
@@ -62,14 +65,14 @@ You can access the live hosted version of the Job Portal [here](https://jobporta
 
 Make sure to set up the following environment variables in your `.env` file:
 
+```
 MONGO_URI = ... 
 PORT = 8000 
 SECRET_KEY = ... 
 CLOUD_NAME = ... 
 API_KEY = ... 
-API_SECRET = ..
-
-
+API_SECRET = ...
+```
 
 These variables are required for MongoDB database connections and Cloudinary configurations.
 
@@ -94,6 +97,49 @@ The Job Portal supports two types of accounts:
 - **Theme Switching**: Users can toggle between dark and light themes.
 - **Protected Routes**: Ensures secure access to certain functionalities based on user authentication.
 
+## Installation Instructions
+
+To set up the project locally, follow these steps:
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/Arun-webcode/Job-Potal-MERN-Stack.git
+   ```
+
+2. **Navigate to the project directory**:
+   ```bash
+   cd Job-Potal-MERN-Stack
+   ```
+
+3. **Install dependencies**:
+   For both the frontend and backend, run:
+   ```bash
+   npm install
+   ```
+
+4. **Create a `.env` file in the backend directory** and add the required environment variables as listed above.
+
+5. **Run the Backend**:
+   ```bash
+   npm run dev
+   ```
+
+6. **Navigate to the frontend directory**:
+   ```bash
+   cd frontend
+   ```
+
+7. **Run the Frontend**:
+   ```bash
+   npm run dev
+   ```
+
+8. **Build the Frontend for Deployment**:
+   When you're ready to deploy, run:
+   ```bash
+   npm run build
+   ```
+
 ## Local Development
 
 For a local version of the Job Portal, please visit the GitHub repository: [Job Portal MERN Stack](https://github.com/Arun-webcode/Job-Potal-MERN-Stack).
@@ -101,3 +147,6 @@ For a local version of the Job Portal, please visit the GitHub repository: [Job 
 ---
 
 **Happy Coding!** Enjoy exploring and contributing to the Job Portal project. Let's build something amazing together! 🚀
+``` 
+
+Feel free to modify any part if you need further adjustments!
