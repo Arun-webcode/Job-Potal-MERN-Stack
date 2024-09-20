@@ -1,14 +1,11 @@
-Sure! Here’s the updated README with installation instructions and commands included. 
-
-```markdown
-# Job Portal
-
-**Created by:** Arun.webcode
-```
 ## 🎉 Welcome to the Job Portal! 🎉
 
 Happy coding! This project is a comprehensive learning experience designed to emulate a real-world job portal, complete with all the functionalities you’d expect from a professional platform. Whether you’re a job seeker or a recruiter, this portal has something for everyone!
-```
+
+# Job Portal
+
+**Created by:** Arun.webcode
+
 ## Live Demo
 
 You can access the live hosted version of the Job Portal [here](https://jobportal-live.onrender.com).
